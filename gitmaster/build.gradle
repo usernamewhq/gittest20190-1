@@ -1,0 +1,23 @@
+plugins {
+    id 'java'
+}
+
+group 'com.jsnb'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    maven { url "http://maven.aliyun.com/nexus/content/groups/public" }
+    maven { url "http://repo2.maven.org/maven2" }
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'com.alibaba', name: 'fastjson', version: '1.2.58'
+    compile group: 'com.baomidou', name: 'mybatis-plus', version: '3.1.2'
+    compile group: 'org.projectlombok', name: 'lombok', version: '1.18.8'
+    compile group: 'org.springframework.cloud', name: 'spring-cloud-context', version: '2.0.3.RELEASE'
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '2.0.3.RELEASE'
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
