@@ -1,5 +1,5 @@
 package com.jsnb;
 
 public class Pet {
-    int a = 5;
+    int a = 51;
 }
