@@ -7,4 +7,5 @@ public class User {
     int aaac = 4;
     boolean falg = false;
     User user = new User();
+    int bb=3;
 }
