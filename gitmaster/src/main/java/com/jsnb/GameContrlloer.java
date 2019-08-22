@@ -6,6 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class GameContrlloer {
     int b = 2;
     public String get(){
-        return "8888";
+        String a= "1111111";
+        return "88883";
     }
 }
