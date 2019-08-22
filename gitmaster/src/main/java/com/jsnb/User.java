@@ -6,4 +6,5 @@ public class User {
     int aaa=3;
     int aaac = 4;
     boolean falg = false;
+    User user = new User();
 }
