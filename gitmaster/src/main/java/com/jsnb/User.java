@@ -1,6 +1,6 @@
 package com.jsnb;
 
 public class User {
-    String a;
-    String b;
+    String a="2";
+    String b="3";
 }
